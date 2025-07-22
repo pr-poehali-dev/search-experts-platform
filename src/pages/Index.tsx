@@ -59,7 +59,7 @@ const Index = () => {
               <Button variant="outline" className="text-tertiary border-tertiary hover:bg-tertiary hover:text-white">
                 Войти
               </Button>
-              <Button className="bg-primary hover:bg-primary/90">
+              <Button className="bg-purple hover:bg-purple/90">
                 Регистрация
               </Button>
             </div>
@@ -95,7 +95,7 @@ const Index = () => {
                   className="h-12 text-lg border-0 focus:ring-2 focus:ring-secondary"
                 />
               </div>
-              <Button size="lg" className="h-12 px-8 bg-primary hover:bg-primary/90">
+              <Button size="lg" className="h-12 px-8 bg-purple hover:bg-purple/90">
                 <Icon name="Search" className="mr-2 h-5 w-5" />
                 Найти
               </Button>
@@ -175,7 +175,7 @@ const Index = () => {
                     <span className="text-gray-500">({specialist.reviews} отзывов)</span>
                   </div>
                   <div className="text-xl font-bold text-primary">{specialist.price}</div>
-                  <Button className="w-full bg-secondary hover:bg-secondary/90">
+                  <Button className="w-full bg-purple hover:bg-purple/90">
                     Связаться
                   </Button>
                 </CardContent>
@@ -234,10 +234,10 @@ const Index = () => {
             Присоединяйтесь к тысячам довольных заказчиков и найдите своего специалиста уже сегодня
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+            <Button size="lg" variant="secondary" className="bg-white text-purple hover:bg-gray-100">
               Найти специалиста
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple">
               Стать исполнителем
             </Button>
           </div>
