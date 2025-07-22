@@ -43,6 +43,10 @@ export default {
 					DEFAULT: '#F8F9FA',
 					foreground: '#2C3E50'
 				},
+				purple: {
+					DEFAULT: '#9b87f5',
+					foreground: '#FFFFFF'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'

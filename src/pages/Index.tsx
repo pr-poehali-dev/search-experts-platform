@@ -9,10 +9,10 @@ const Index = () => {
   const categories = [
     { name: "Дизайн", icon: "Palette", count: "2,341", color: "bg-primary" },
     { name: "Программирование", icon: "Code", count: "1,856", color: "bg-secondary" },
-    { name: "Маркетинг", icon: "Target", count: "1,234", color: "bg-tertiary" },
-    { name: "Копирайтинг", icon: "PenTool", count: "987", color: "bg-primary" },
-    { name: "Переводы", icon: "Languages", count: "756", color: "bg-secondary" },
-    { name: "Видеомонтаж", icon: "Video", count: "643", color: "bg-tertiary" }
+    { name: "Маркетинг", icon: "Target", count: "1,234", color: "bg-purple" },
+    { name: "Копирайтинг", icon: "PenTool", count: "987", color: "bg-tertiary" },
+    { name: "Переводы", icon: "Languages", count: "756", color: "bg-purple" },
+    { name: "Видеомонтаж", icon: "Video", count: "643", color: "bg-primary" }
   ];
 
   const topSpecialists = [
@@ -68,7 +68,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/10 via-secondary/10 to-tertiary/10 py-20">
+      <section className="bg-gradient-to-br from-primary/10 via-purple/10 to-secondary/10 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold text-tertiary mb-6 animate-fade-in">
             Найдите идеального специалиста
@@ -214,7 +214,7 @@ const Index = () => {
               <p className="text-tertiary/70">Общайтесь в удобном чате и отслеживайте прогресс</p>
             </div>
             <div className="text-center">
-              <div className="bg-primary rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <div className="bg-purple rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Icon name="CheckCircle" className="h-8 w-8 text-white" />
               </div>
               <h3 className="font-semibold text-tertiary mb-2">4. Получите результат</h3>
@@ -225,7 +225,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-primary to-secondary">
+      <section className="py-16 bg-gradient-to-r from-purple via-primary to-secondary">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white mb-6">
             Готовы начать свой проект?
